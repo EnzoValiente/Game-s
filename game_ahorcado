@@ -25,7 +25,7 @@ def pedir_letra():
     return letra.lower()
 
 
-def validar_letra():
+def iniciar_game():
     vidas_restantes = 6
     while vidas_restantes != 0:
         letra = pedir_letra()
@@ -59,7 +59,7 @@ def mostrar_tablero(palabra):
 
 
 
-validar_letra()
+iniciar_game()
 
 
 
